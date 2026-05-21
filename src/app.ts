@@ -1,6 +1,6 @@
 import Fastify, { FastifyServerOptions } from 'fastify';
 
-const imNumber: number = "sike";
+const imNumber: number = 'sike';
 console.log(imNumber);
 
 export function buildApp(options: FastifyServerOptions = {}) {
